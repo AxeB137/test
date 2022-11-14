@@ -1,0 +1,138 @@
+h1 {
+    width:424px;
+    height:38px;
+    top:138px;
+    left:150px;
+}
+p {
+    width:460px;
+    height:28px;
+    top:189px;
+    left:152px; 
+}
+body{
+    background-color: #f0f0f0;
+}
+.grid-container {
+    display: grid;
+    height:100vh;
+    justify-items:  left;
+    grid-template-columns: repeat(2,1fr);
+}
+.grid-item {
+    Width: 299px;
+    height:64;
+    top:252px;
+    left:100px;
+    border-radius:8px;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 32px rgba(202, 203, 210, 0.25);
+    border:5px bold;
+    
+}
+.item-1{
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+}
+.item-2 {
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+}
+.item-3{
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+}
+.item-4{
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+}
+.item-5{
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+}
+.item-6 {
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+}
+.item-7 {
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+}
+.item-8 {
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+}
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .custom-select select {
+    display: none; 
+  }
+  
+  .select-selected {
+    background-color: DodgerBlue;
+  }
+  
+  
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
